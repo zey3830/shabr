@@ -21,17 +21,17 @@ _The purpose of this repository is to help you practice using Bootstrap pieces: 
 
 ## Plan/sketch
 * The best results are always backed by thorough planning.  Before jumping into the Directions below, plan out a reasonable layout for the content. Here are a bunch of free tools for sketching a design:
-  * Google Drawings (easiest to use!)
+  * [Google Drawings](https://drawings.google.com) (easiest to use!)
   * Other browser-based tools
-    * [Wireframe.cc] (https://wireframe.cc/)
-    * [Figma] (https://www.figma.com/wireframe-tool/)
-    * [Mockflow] (https://www.mockflow.com/)
+    * [Wireframe.cc](https://wireframe.cc/)
+    * [Figma](https://www.figma.com/wireframe-tool/)
+    * [Mockflow](https://www.mockflow.com/)
   * Downloadable programs
-    * [Adobe XD] (https://www.adobe.com/products/xd.html)
-    * [Miro] (https://miro.com/apps/)
-    * [JustinMind] (https://www.justinmind.com/free-wireframing-tool)
+    * [Adobe XD](https://www.adobe.com/products/xd.html)
+    * [Miro](https://miro.com/apps/)
+    * [JustinMind](https://www.justinmind.com/free-wireframing-tool)
   * Paper-and-pencil
-    * [SneakPeekIt] (https://sneakpeekit.com/)
+    * [SneakPeekIt](https://sneakpeekit.com/)
 
 ## Directions
 * If you are working in pairs, have one person **fork** this repository.  That person should add the other person as a **collaborator**.
