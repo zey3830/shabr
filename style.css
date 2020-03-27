@@ -1,0 +1,22 @@
+#bg {
+    background-image: url(img/airballoon_bg_1.jpg);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+#frame-small {
+    width: 80vw;
+    height: 49vh;
+    background: black;
+    margin-left: 10vw;
+    opacity: 0.3;
+}
+
+/*change 1000px to pixel of md (for now)*/
+
+@media screen and (min-width: 1000px) { 
+    #frame-small {
+        height: 100vh;
+    }
+}
