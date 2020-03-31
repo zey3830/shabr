@@ -43,14 +43,6 @@
     height: 5vh;
     position: relative;
     background-color: #404040;
-    
-    /*Align text*/
-    color: white;
-    display: flex;
-}
-
-#bg6 span {
-    align-self: flex-end;
 }
 
 .navbar {
@@ -105,6 +97,10 @@
    margin-top: 70px;
 }
 
+.info_margin {
+    margin-top: 50px;
+}
+
 #gallery {
     margin-top: 76px;
 }
@@ -119,4 +115,185 @@
 
 #contact {
     margin-top: 100px;
+}
+
+#copyright {
+    position: absolute; 
+    bottom: 0; 
+    width:100%; 
+    text-align: center;
+    color: white;
+}
+
+/*Small*/
+@media screen and (max-width: 576px) {
+    
+    .title_base {
+        font-size: 30px;
+    }
+    
+    .sub_base {
+        font-size: 20px;
+    }
+    
+    /*Home*/
+    .quote {
+        height: 120px;
+        margin-top: 80px;
+    }
+    
+    .sen1 {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    
+    .sen2 {
+        font-size: 15px;
+    }
+    
+    #bg2 {
+        margin-top: -600px;
+    }
+    
+    /*Gallery*/
+    #gallery {
+        margin-top: 15px;
+    }
+    
+   #bg3 {
+        margin-top: -520px;
+    }
+    
+    /*Info*/
+    .card_space {
+        margin-top: 30px;
+    }
+    
+    #bg3 {
+        height: 185vh;
+    }
+    
+    /*Comment*/
+    #comment {
+        margin-top: 0px;
+    }
+    
+    .comment_space {
+        margin-left: 53px;
+    }
+    
+    #bg4 {
+        height: 185vh;
+    }
+}
+
+/*Medium*/
+@media screen and (min-width: 768px) {
+    
+    /*Home*/
+     #bg2 {
+        margin-top: -300px;
+    }
+    
+    .quote {
+        width: 230px;
+        height: 230px;
+        margin-top: 150px;
+    }
+    
+    .sen1 {
+        padding-top: 55px;
+        font-size: 30px;
+    }
+    
+    .sen2 {
+        font-size: 25px;
+    }
+    
+    /*Gallery*/
+    #bg3 {
+        margin-top: -130px;
+    }
+    
+    #gallery {
+        margin-top: 130px;
+    }
+    
+    /*Comment*/
+    #bg4 {
+        height: 95vh;
+    }
+    
+    .comment_space {
+        margin-left: 65px;
+    }
+    
+    #comment {
+        margin-top: 0px;
+    }
+}
+
+/*Large+*/
+@media screen and (min-width: 992px) {
+    
+    /*Home*/
+    #bg2 {
+        margin-top: 0px;
+    }
+    
+    .quote {
+        width: 400px;
+        height: 400px;
+        margin-top: 200px;
+    }
+    
+    .sen1 {
+        padding-top: 80px;
+        font-size: 60px;
+    }
+    
+    .sen2 {
+        font-size: 50px;
+    }
+    
+    /*Gallery*/
+    
+    #bg2 {
+        background-color: gray;
+    }
+    
+    #bg3 {
+        margin-top: 0px;
+    }
+    
+    #gallery {
+        margin-top: 220px;
+    }
+    
+    .w-100 {
+        width: 60vw !important;
+        margin: auto;
+    }
+    
+    /*Info*/
+    #bg3 {
+        height: 80vh;
+    }
+    
+    #info {
+        margin-top: 50px;
+    }
+    
+    /*Comment*/
+    #bg4 {
+        height: 80vh;    
+    }
+    
+    #comment {
+        margin-top: 76px;
+    }
+    
+    .comment_space {
+       margin-left: 110px;
+    }
 }
