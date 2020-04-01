@@ -1,48 +1,44 @@
-#bg {
+#home {
     background-image: url(img/airballoon_bg_1.jpg);
-    width: 100vw;
     background-repeat: no-repeat;
     background-size: 100vw;
-    height: 100vh;
+    height: 30vh;
 }
 
-#bg2 {
-    /*background-image: url(img/airballoon_bg_2.jpg);*/
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    height: 100vh;
-    margin-top: -445px;
-    position: relative;
+#solgan {
+    background-color: rgb(220,220,220);
+    position: absolute;
+    width: 50vw;
+    height: 15vh;
+    margin-top: 10vh;
 }
 
-#bg3 {
-    width: 100vw;
-    height: 100vh;
-    margin-top: -302px;
-    position: relative;
+#info {
     background-color: skyblue;
 }
 
-#bg4 {
-    width: 100vw;
-    height: 105vh;
-    position: relative;
+#comment {
     background-color: #EE9015;
+    margin-top: -23px;
 }
 
-#bg5 {
-    width: 100vw;
-    height: 50vh;
-    position: relative;
+#contact {
     background-color: #E5CCFF;
 }
 
-#bg6 {
+#copyright {
     width: 100vw;
     height: 5vh;
     position: relative;
     background-color: #404040;
+}
+
+.bottom {
+    position: absolute; 
+    bottom: 0; 
+    width:100%; 
+    text-align: center;
+    color: white;
 }
 
 .navbar {
@@ -52,248 +48,157 @@
   z-index: 100;
 }
 
-.quote {
-    background-color: rgb(220,220,220);
-    width: 200px;
-    height: 200px;
-    margin-top: 100px;
-}
-
 .shade {
     box-shadow: 10px 5px 5px gray;
 }
 
 .sen1 {
     text-align: center;
-    padding-top: 55px;
+    padding-top: 20px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 12px;
 }
 
 .sen2 {
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 12px;
 }
 
 .title_base {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     background: gray;
-    margin-bottom: 0px;
     position: relative;
 }
 
 .sub_base {
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
     background: gray;
     color: black;
+    margin-top: -20px;
 }
 
-.comment_space {
-   margin-left: 45px;
-   margin-top: 70px;
+.space_up {
+    margin-top: -18px;
 }
 
-.info_margin {
-    margin-top: 50px;
+.card_space {
+    margin-top: 30px;
 }
 
-#gallery {
-    margin-top: 76px;
+.adress {
+    font-weight: bold; 
+    font-size: 20px;
 }
 
-#info {
-    margin-top: -56px;
+.place {
+    font-size: 13px;
 }
 
-#comment {
-    margin-top: 36px;
+#tpgallery {
+    margin-top: -55px;
+    height: 55px;
 }
 
-#contact {
-    margin-top: 100px;
-}
-
-#copyright {
-    position: absolute; 
-    bottom: 0; 
-    width:100%; 
-    text-align: center;
-    color: white;
-}
-
-/*Small*/
-@media screen and (max-width: 576px) {
-    
-    .title_base {
-        font-size: 30px;
-    }
-    
-    .sub_base {
-        font-size: 20px;
-    }
-    
-    /*Home*/
-    .quote {
-        height: 120px;
-        margin-top: 80px;
-    }
-    
-    .sen1 {
-        padding-top: 10px;
-        font-size: 15px;
-    }
-    
-    .sen2 {
-        font-size: 15px;
-    }
-    
-    #bg2 {
-        margin-top: -600px;
-    }
-    
-    /*Gallery*/
-    #gallery {
-        margin-top: 15px;
-    }
-    
-   #bg3 {
-        margin-top: -520px;
-    }
-    
-    /*Info*/
-    .card_space {
-        margin-top: 30px;
-    }
-    
-    #bg3 {
-        height: 185vh;
-    }
-    
-    /*Comment*/
-    #comment {
-        margin-top: 0px;
-    }
-    
-    .comment_space {
-        margin-left: 53px;
-    }
-    
-    #bg4 {
-        height: 185vh;
-    }
+#tpinfo {
+    margin-top: -55px;
+    height: 55px;
 }
 
 /*Medium*/
 @media screen and (min-width: 768px) {
-    
-    /*Home*/
-     #bg2 {
-        margin-top: -300px;
+    #home {
+        height: 50vh;
     }
     
-    .quote {
-        width: 230px;
-        height: 230px;
-        margin-top: 150px;
+    #solgan {
+        width: 50vw;
+        height: 20vh;
+        margin-top: 15vh;
     }
     
     .sen1 {
-        padding-top: 55px;
+        padding-top: 20px;
+        font-size: 25px;
+    }
+
+    .sen2 {
+        font-size: 20px;
+    }
+    
+    .title_base {
+        font-size: 40px;
+    }
+
+    .sub_base {
+        font-size: 20px;
+    }
+    
+    .adress {
         font-size: 30px;
     }
     
-    .sen2 {
-        font-size: 25px;
-    }
-    
-    /*Gallery*/
-    #bg3 {
-        margin-top: -130px;
-    }
-    
-    #gallery {
-        margin-top: 130px;
-    }
-    
-    /*Comment*/
-    #bg4 {
-        height: 95vh;
-    }
-    
-    .comment_space {
-        margin-left: 65px;
-    }
-    
-    #comment {
-        margin-top: 0px;
+    .place {
+        font-size: 15px;
     }
 }
 
-/*Large+*/
+/*Large*/
 @media screen and (min-width: 992px) {
-    
-    /*Home*/
-    #bg2 {
-        margin-top: 0px;
+    #home {
+        height: 65vh;
     }
     
-    .quote {
-        width: 400px;
-        height: 400px;
-        margin-top: 200px;
+    #solgan {
+        width: 50vw;
+        height: 25vh;
+        margin-top: 20vh;
     }
     
     .sen1 {
-        padding-top: 80px;
-        font-size: 60px;
+        padding-top: 25px;
+        font-size: 35px;
     }
-    
+
     .sen2 {
-        font-size: 50px;
+        font-size: 30px;
     }
-    
-    /*Gallery*/
-    
-    #bg2 {
-        background-color: gray;
-    }
-    
-    #bg3 {
-        margin-top: 0px;
-    }
-    
-    #gallery {
-        margin-top: 220px;
-    }
-    
-    .w-100 {
-        width: 60vw !important;
-        margin: auto;
-    }
-    
-    /*Info*/
-    #bg3 {
+}
+
+/*Extra Large*/
+@media screen and (min-width: 1200px) {
+    #home {
         height: 80vh;
     }
     
-    #info {
-        margin-top: 50px;
+    #solgan {
+        width: 50vw;
+        height: 30vh;
+        margin-top: 25vh;
     }
     
-    /*Comment*/
-    #bg4 {
-        height: 80vh;    
+    .sen1 {
+        padding-top: 35px;
+        font-size: 45px;
+    }
+
+    .sen2 {
+        font-size: 40px;
+    }
+}
+
+/*Extra Extra Large*/
+@media screen and (min-width: 1700px) {
+    #home {
+        height: 100vh;
     }
     
-    #comment {
-        margin-top: 76px;
-    }
-    
-    .comment_space {
-       margin-left: 110px;
+    #solgan {
+        width: 50vw;
+        height: 30vh;
+        margin-top: 30vh;
     }
 }
