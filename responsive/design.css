@@ -1,0 +1,204 @@
+#home {
+    background-image: url(../img/airballoon_bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 30vh;
+}
+
+#solgan {
+    background-color: rgb(220,220,220);
+    position: absolute;
+    width: 50vw;
+    height: 15vh;
+    margin-top: 10vh;
+}
+
+#info {
+    background-color: skyblue;
+}
+
+#comment {
+    background-color: #EE9015;
+    margin-top: -23px;
+}
+
+#contact {
+    background-color: #E5CCFF;
+}
+
+#copyright {
+    width: 100vw;
+    height: 5vh;
+    position: relative;
+    background-color: #404040;
+}
+
+.bottom {
+    position: absolute; 
+    bottom: 0; 
+    width:100%; 
+    text-align: center;
+    color: white;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 100;
+}
+
+.shade {
+    box-shadow: 10px 5px 5px gray;
+}
+
+.sen1 {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.sen2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.title_base {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    background: gray;
+    position: relative;
+}
+
+.sub_base {
+    font-size: 17px;
+    text-align: center;
+    background: gray;
+    color: black;
+    margin-top: -20px;
+}
+
+.space_up {
+    margin-top: -18px;
+}
+
+.card_space {
+    margin-top: 30px;
+}
+
+.adress {
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+.place {
+    font-size: 13px;
+}
+
+#tpgallery {
+    margin-top: -55px;
+    height: 55px;
+}
+
+#tpinfo {
+    margin-top: -55px;
+    height: 55px;
+}
+
+/*Medium*/
+@media screen and (min-width: 768px) {
+    #home {
+        height: 50vh;
+    }
+    
+    #solgan {
+        width: 50vw;
+        height: 20vh;
+        margin-top: 15vh;
+    }
+    
+    .sen1 {
+        padding-top: 20px;
+        font-size: 25px;
+    }
+
+    .sen2 {
+        font-size: 20px;
+    }
+    
+    .title_base {
+        font-size: 40px;
+    }
+
+    .sub_base {
+        font-size: 20px;
+    }
+    
+    .adress {
+        font-size: 30px;
+    }
+    
+    .place {
+        font-size: 15px;
+    }
+}
+
+/*Large*/
+@media screen and (min-width: 992px) {
+    #home {
+        height: 65vh;
+    }
+    
+    #solgan {
+        width: 50vw;
+        height: 25vh;
+        margin-top: 20vh;
+    }
+    
+    .sen1 {
+        padding-top: 25px;
+        font-size: 35px;
+    }
+
+    .sen2 {
+        font-size: 30px;
+    }
+}
+
+/*Extra Large*/
+@media screen and (min-width: 1200px) {
+    #home {
+        height: 80vh;
+    }
+    
+    #solgan {
+        width: 50vw;
+        height: 30vh;
+        margin-top: 25vh;
+    }
+    
+    .sen1 {
+        padding-top: 35px;
+        font-size: 45px;
+    }
+
+    .sen2 {
+        font-size: 40px;
+    }
+}
+
+/*Extra Extra Large*/
+@media screen and (min-width: 1700px) {
+    #home {
+        height: 100vh;
+    }
+    
+    #solgan {
+        width: 50vw;
+        height: 30vh;
+        margin-top: 30vh;
+    }
+}
